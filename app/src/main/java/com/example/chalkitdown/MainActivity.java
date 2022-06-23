@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.textRegister:
                 startActivity(new Intent(this, UsersRegister.class));
                 break;
+
+            case R.id.textForgotPassword:
+                startActivity(new Intent(this, MdpOublie.class));
+                break;
         }
     }
 }
